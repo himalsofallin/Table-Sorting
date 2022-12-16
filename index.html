@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>User Table UI Design</title>
+	<script type="text/javascript" src="/js/sort-table.js"></script>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section class="main-content">
+		<div class="container">
+			<h1>Users Table UI</h1>
+			<br>
+
+			<table class="table js-sort-table">
+				<thead>
+					<tr>
+						<th><button>Name & Surname</button></th>
+						<th><button>Status</button></th>
+						<th><button>Location</button></th>
+						<th><button>Phone</button></th>
+						<th class="js-sort-none">Contact</th>
+						<th class="js-sort-none">Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<div class="user-info">
+								<div class="user-info__img">
+									<img src="img/unknown.jpg" alt="User Img">
+								</div>
+								<div class="user-info__basic">
+									<h5 class="mb-0">Abaric Zabaric</h5>
+								</div>
+							</div>
+						</td>
+						<td>
+							<span class="active-circle bg-success"></span> Active
+						</td>
+						<td>Bangalore</td>
+						<td>+91 9876543215</td>
+						<td>
+							<button class="btn btn-primary btn-sm">Contact</button>
+						</td>
+						<td>
+							<div class="dropdown open">
+								<a href="#!" class="px-2" id="triggerId1" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+											<i class="fa fa-ellipsis-v"></i>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="triggerId1">
+									<a class="dropdown-item" href="#"><i class="fa fa-pencil mr-1"></i> Edit</a>
+									<a class="dropdown-item text-danger" href="#"><i class="fa fa-trash mr-1"></i> Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="user-info">
+								<div class="user-info__img">
+									<img src="img/unknown.jpg" alt="User Img">
+								</div>
+								<div class="user-info__basic">
+									<h5 class="mb-0">Abaric Nabacric</h5>
+								</div>
+							</div>
+						</td>
+						<td>
+							<span class="active-circle bg-danger"></span> Deactive
+						</td>
+						<td>Bangalore</td>
+						<td>+91 98765436215</td>
+						<td>
+							<button class="btn btn-primary btn-sm">Contact</button>
+						</td>
+						<td>
+							<div class="dropdown open">
+								<a href="#!" class="px-2" id="triggerId1" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+											<i class="fa fa-ellipsis-v"></i>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="triggerId1">
+									<a class="dropdown-item" href="#"><i class="fa fa-pencil mr-1"></i> Edit</a>
+									<a class="dropdown-item text-danger" href="#"><i class="fa fa-trash mr-1"></i> Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
