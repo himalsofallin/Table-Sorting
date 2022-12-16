@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>User Table UI Design</title>
 	<script type="text/javascript" src="/js/sort-table.js"></script>
-	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" name="viewport">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,7 +12,7 @@
 <body>
 	<section class="main-content">
 		<div class="container">
-			<h1>Users Table UI</h1>
+			<h1 class="text-center mb-4">User Table</h2>
 			<br>
 
 			<table class="table js-sort-table">
@@ -22,7 +22,6 @@
 						<th><button>Status</button></th>
 						<th><button>Location</button></th>
 						<th><button>Phone</button></th>
-						<th class="js-sort-none">Contact</th>
 						<th class="js-sort-none">Actions</th>
 					</tr>
 				</thead>
@@ -34,29 +33,17 @@
 									<img src="img/unknown.jpg" alt="User Img">
 								</div>
 								<div class="user-info__basic">
-									<h5 class="mb-0">Abaric Zabaric</h5>
+									<h5 class="mb-0">Abaric Nabacric</h5>
 								</div>
 							</div>
 						</td>
 						<td>
-							<span class="active-circle bg-success"></span> Active
+							<span class="active-circle bg-danger"></span> Deactive
 						</td>
 						<td>Bangalore</td>
-						<td>+91 9876543215</td>
+						<td>+91 98765436215</td>
 						<td>
 							<button class="btn btn-primary btn-sm">Contact</button>
-						</td>
-						<td>
-							<div class="dropdown open">
-								<a href="#!" class="px-2" id="triggerId1" data-toggle="dropdown" aria-haspopup="true"
-										aria-expanded="false">
-											<i class="fa fa-ellipsis-v"></i>
-								</a>
-								<div class="dropdown-menu" aria-labelledby="triggerId1">
-									<a class="dropdown-item" href="#"><i class="fa fa-pencil mr-1"></i> Edit</a>
-									<a class="dropdown-item text-danger" href="#"><i class="fa fa-trash mr-1"></i> Delete</a>
-								</div>
-							</div>
 						</td>
 					</tr>
 					<tr>
@@ -77,18 +64,6 @@
 						<td>+91 98765436215</td>
 						<td>
 							<button class="btn btn-primary btn-sm">Contact</button>
-						</td>
-						<td>
-							<div class="dropdown open">
-								<a href="#!" class="px-2" id="triggerId1" data-toggle="dropdown" aria-haspopup="true"
-										aria-expanded="false">
-											<i class="fa fa-ellipsis-v"></i>
-								</a>
-								<div class="dropdown-menu" aria-labelledby="triggerId1">
-									<a class="dropdown-item" href="#"><i class="fa fa-pencil mr-1"></i> Edit</a>
-									<a class="dropdown-item text-danger" href="#"><i class="fa fa-trash mr-1"></i> Delete</a>
-								</div>
-							</div>
 						</td>
 					</tr>
 				</tbody>
